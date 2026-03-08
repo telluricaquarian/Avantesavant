@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
@@ -87,6 +88,10 @@ export default function Page() {
         <p className="max-w-2xl text-muted-foreground text-sm">
           Educational platform dedicated towards ensuring your thinking machine (brain) is &ldquo;well oiled&rdquo;.
         </p>
+      </div>
+
+      <div className="overflow-hidden rounded-2xl">
+        <Image src="/asag.png" alt="AvantSavant" width={1280} height={720} className="h-auto w-full" priority />
       </div>
 
       <div>
