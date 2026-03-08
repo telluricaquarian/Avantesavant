@@ -8,8 +8,8 @@ export function SectionCards() {
     <div className="grid @5xl/main:grid-cols-4 @xl/main:grid-cols-2 grid-cols-1 gap-4 *:data-[slot=card]:bg-linear-to-t *:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card *:data-[slot=card]:shadow-xs dark:*:data-[slot=card]:bg-card">
       <Card className="@container/card">
         <CardHeader>
-          <CardDescription>Total Revenue</CardDescription>
-          <CardTitle className="font-semibold @[250px]/card:text-3xl text-2xl tabular-nums">$1,250.00</CardTitle>
+          <CardDescription>Knowledge Archive</CardDescription>
+          <CardTitle className="font-semibold @[250px]/card:text-3xl text-2xl tabular-nums">1,250</CardTitle>
           <CardAction>
             <Badge variant="outline">
               <TrendingUp />
@@ -19,14 +19,14 @@ export function SectionCards() {
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
           <div className="line-clamp-1 flex gap-2 font-medium">
-            Trending up this month <TrendingUp className="size-4" />
+            Growing this month <TrendingUp className="size-4" />
           </div>
-          <div className="text-muted-foreground">Visitors for the last 6 months</div>
+          <div className="text-muted-foreground">Entries added in the last 6 months</div>
         </CardFooter>
       </Card>
       <Card className="@container/card">
         <CardHeader>
-          <CardDescription>New Customers</CardDescription>
+          <CardDescription>New Entries</CardDescription>
           <CardTitle className="font-semibold @[250px]/card:text-3xl text-2xl tabular-nums">1,234</CardTitle>
           <CardAction>
             <Badge variant="outline">
@@ -39,12 +39,12 @@ export function SectionCards() {
           <div className="line-clamp-1 flex gap-2 font-medium">
             Down 20% this period <TrendingDown className="size-4" />
           </div>
-          <div className="text-muted-foreground">Acquisition needs attention</div>
+          <div className="text-muted-foreground">Content intake needs attention</div>
         </CardFooter>
       </Card>
       <Card className="@container/card">
         <CardHeader>
-          <CardDescription>Active Accounts</CardDescription>
+          <CardDescription>Active Thinkers</CardDescription>
           <CardTitle className="font-semibold @[250px]/card:text-3xl text-2xl tabular-nums">45,678</CardTitle>
           <CardAction>
             <Badge variant="outline">
@@ -55,14 +55,14 @@ export function SectionCards() {
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
           <div className="line-clamp-1 flex gap-2 font-medium">
-            Strong user retention <TrendingUp className="size-4" />
+            Strong engagement <TrendingUp className="size-4" />
           </div>
-          <div className="text-muted-foreground">Engagement exceed targets</div>
+          <div className="text-muted-foreground">Retention exceeds targets</div>
         </CardFooter>
       </Card>
       <Card className="@container/card">
         <CardHeader>
-          <CardDescription>Growth Rate</CardDescription>
+          <CardDescription>Cognitive Momentum</CardDescription>
           <CardTitle className="font-semibold @[250px]/card:text-3xl text-2xl tabular-nums">4.5%</CardTitle>
           <CardAction>
             <Badge variant="outline">
@@ -73,9 +73,9 @@ export function SectionCards() {
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
           <div className="line-clamp-1 flex gap-2 font-medium">
-            Steady performance increase <TrendingUp className="size-4" />
+            Steady growth <TrendingUp className="size-4" />
           </div>
-          <div className="text-muted-foreground">Meets growth projections</div>
+          <div className="text-muted-foreground">Meets platform projections</div>
         </CardFooter>
       </Card>
     </div>

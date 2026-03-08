@@ -75,7 +75,7 @@ export const sidebarItems: NavGroup[] = [
         comingSoon: true,
       },
       {
-        title: "Academy",
+        title: "Library",
         url: "/dashboard/coming-soon",
         icon: GraduationCap,
         comingSoon: true,
