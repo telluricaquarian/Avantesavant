@@ -77,7 +77,7 @@ export default function Page() {
   return (
     <div className="@container/main flex flex-col gap-6">
       <div className="rounded-xl border bg-card px-6 py-8 md:px-10 md:py-10">
-        <p className="mb-2 font-semibold text-muted-foreground text-xs uppercase tracking-widest">Avantesavante</p>
+        <p className="mb-2 font-semibold text-muted-foreground text-xs uppercase tracking-widest">AvantSavant</p>
         <h1 className="mb-2 font-bold text-3xl tracking-tight md:text-4xl">The New Genius</h1>
         <p className="mb-4 text-lg text-muted-foreground">Breaking new ground. keeping the mind sound.</p>
         <p className="mb-2 max-w-2xl text-muted-foreground text-sm">

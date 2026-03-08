@@ -64,7 +64,7 @@ export default function Page() {
         <p className="mb-1 font-semibold text-muted-foreground text-xs uppercase tracking-widest">Library</p>
         <h1 className="mb-2 font-bold text-2xl tracking-tight md:text-3xl">Source Index</h1>
         <p className="max-w-2xl text-muted-foreground text-sm">
-          All primary sources referenced across the Avantesavante curriculum. Original authors and researchers are
+          All primary sources referenced across the AvantSavant curriculum. Original authors and researchers are
           credited for every idea drawn from their work.
         </p>
       </div>

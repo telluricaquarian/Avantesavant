@@ -40,8 +40,8 @@ export default function Page() {
         <p className="mb-1 font-semibold text-muted-foreground text-xs uppercase tracking-widest">Library</p>
         <h1 className="mb-2 font-bold text-2xl tracking-tight md:text-3xl">Curriculum Map</h1>
         <p className="max-w-2xl text-muted-foreground text-sm">
-          A structural overview of the Avantesavante curriculum organized by track and subject area. Each subject
-          contains an overview, lessons, notes, and cited sources.
+          A structural overview of the AvantSavant curriculum organized by track and subject area. Each subject contains
+          an overview, lessons, notes, and cited sources.
         </p>
       </div>
       <div className="flex flex-col gap-6">

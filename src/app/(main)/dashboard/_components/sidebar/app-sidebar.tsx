@@ -38,8 +38,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             <SidebarMenuButton asChild size="lg">
               <Link prefetch={false} href="/dashboard/default">
                 <Image
-                  src="/avantesavantlogo.png"
-                  alt="Avantesavante"
+                  src="/avantsavantlogo.png"
+                  alt="AvantSavant"
                   width={500}
                   height={250}
                   priority

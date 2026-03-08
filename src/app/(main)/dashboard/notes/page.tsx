@@ -4,7 +4,7 @@ const pinnedNotes = [
   {
     title: "On Redistribution with Attribution",
     date: "Pinned",
-    body: "The core thesis of Avantesavante: educational value is created not only by original research but by the careful redistribution, synthesis, and contextualization of existing knowledge. Wikipedia proved this at scale. The obligation is always to cite, credit, and link back to the original thinkers.",
+    body: "The core thesis of AvantSavant: educational value is created not only by original research but by the careful redistribution, synthesis, and contextualization of existing knowledge. Wikipedia proved this at scale. The obligation is always to cite, credit, and link back to the original thinkers.",
   },
   {
     title: "Prompting vs Fine-tuning",

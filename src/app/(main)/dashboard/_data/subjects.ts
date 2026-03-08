@@ -693,7 +693,7 @@ export const knowledgeDesign: SubjectData = {
     },
     {
       title: "Curating vs Consuming",
-      body: "Passive information consumption without synthesis creates the illusion of learning. Active curation — summarizing in your own words, connecting to existing knowledge, noting disagreements — produces lasting understanding. Avantesavante is built on this distinction.",
+      body: "Passive information consumption without synthesis creates the illusion of learning. Active curation — summarizing in your own words, connecting to existing knowledge, noting disagreements — produces lasting understanding. AvantSavant is built on this distinction.",
       tags: ["Curation", "Synthesis", "Active Learning"],
     },
     {
@@ -733,7 +733,7 @@ export const caseStudies: SubjectData = {
   title: "Case Studies",
   eyebrow: "Subject · Applied Learning",
   intro:
-    "Case studies ground abstract principles in specific, real-world examples. This section analyzes notable implementations across the Avantesavante curriculum, examining what worked, what did not, and why.",
+    "Case studies ground abstract principles in specific, real-world examples. This section analyzes notable implementations across the AvantSavant curriculum, examining what worked, what did not, and why.",
   concepts: [
     {
       title: "How to Read a Case Study",
@@ -779,7 +779,7 @@ export const caseStudies: SubjectData = {
     },
     {
       title: "Case Study: Wikipedia as a Knowledge System",
-      body: "Wikipedia's value comes not from novel content but from redistribution, synthesis, and citational discipline. It is the largest human-curated retrieval system in history, with mandatory source attribution. The Avantesavante model is explicitly informed by Wikipedia's principles of open curation.",
+      body: "Wikipedia's value comes not from novel content but from redistribution, synthesis, and citational discipline. It is the largest human-curated retrieval system in history, with mandatory source attribution. The AvantSavant model is explicitly informed by Wikipedia's principles of open curation.",
       tags: ["Knowledge Design", "Attribution", "Curation"],
     },
   ],
