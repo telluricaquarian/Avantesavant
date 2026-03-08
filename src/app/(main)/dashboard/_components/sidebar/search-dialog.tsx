@@ -1,7 +1,21 @@
 "use client";
 import * as React from "react";
 
-import { ChartBar, Forklift, Gauge, GraduationCap, LayoutDashboard, Search, ShoppingBag } from "lucide-react";
+import {
+  BookMarked,
+  BookOpen,
+  Bot,
+  Brain,
+  Database,
+  Droplets,
+  FileSearch,
+  Layers,
+  Monitor,
+  Palette,
+  Search,
+  Terminal,
+  Zap,
+} from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -15,16 +29,18 @@ import {
 } from "@/components/ui/command";
 
 const searchItems = [
-  { group: "Dashboards", icon: LayoutDashboard, label: "Default" },
-  { group: "Dashboards", icon: ChartBar, label: "CRM", disabled: true },
-  { group: "Dashboards", icon: Gauge, label: "Analytics", disabled: true },
-  { group: "Dashboards", icon: ShoppingBag, label: "E-Commerce", disabled: true },
-  { group: "Dashboards", icon: GraduationCap, label: "Academy", disabled: true },
-  { group: "Dashboards", icon: Forklift, label: "Logistics", disabled: true },
-  { group: "Authentication", label: "Login v1" },
-  { group: "Authentication", label: "Login v2" },
-  { group: "Authentication", label: "Register v1" },
-  { group: "Authentication", label: "Register v2" },
+  { group: "Subjects", icon: Brain, label: "AI Foundations", url: "/dashboard/ai-foundations" },
+  { group: "Subjects", icon: Database, label: "RAG Systems", url: "/dashboard/rag-systems" },
+  { group: "Subjects", icon: Bot, label: "Agentic Workflows", url: "/dashboard/agentic-workflows" },
+  { group: "Subjects", icon: Layers, label: "UI Libraries", url: "/dashboard/ui-libraries" },
+  { group: "Subjects", icon: Palette, label: "Creative Direction", url: "/dashboard/creative-direction" },
+  { group: "Subjects", icon: Terminal, label: "IDE Workflow", url: "/dashboard/ide-workflow" },
+  { group: "Subjects", icon: Monitor, label: "Frontend Systems", url: "/dashboard/frontend-systems" },
+  { group: "Subjects", icon: Zap, label: "Automation Systems", url: "/dashboard/automation-systems" },
+  { group: "Subjects", icon: BookOpen, label: "Knowledge Design", url: "/dashboard/knowledge-design" },
+  { group: "Subjects", icon: FileSearch, label: "Case Studies", url: "/dashboard/case-studies" },
+  { group: "Bioenergetics & Water Science", icon: Droplets, label: "Bioenergetics", url: "/dashboard/bioenergetics" },
+  { group: "Library", icon: BookMarked, label: "Reading Lists", url: "/dashboard/reading-lists" },
 ];
 
 export function SearchDialog() {
@@ -54,13 +70,13 @@ export function SearchDialog() {
         </kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Search dashboards, users, and more…" />
+        <CommandInput placeholder="Search subjects and library…" />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           {[...new Set(searchItems.map((item) => item.group))].map((group, i) => (
             <React.Fragment key={group}>
               {i !== 0 && <CommandSeparator />}
-              <CommandGroup heading={group} key={group}>
+              <CommandGroup heading={group}>
                 {searchItems
                   .filter((item) => item.group === group)
                   .map((item) => (
